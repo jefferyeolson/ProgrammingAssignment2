@@ -3,6 +3,7 @@
 ## the list created by makeCacheMatrix and uses it to check for and obtain
 ## already created inverses and create and store newly created inverses. It
 ## uses values of objects within the environment of makeCacheMatrix to do this.
+## Matrixes are assumed to be invertible.
 
 ## makeCacheMatrix creates a list of four functions (set, get, setinverse,
 ## and getinverse) and assigns values to m, x, and y within the environment
